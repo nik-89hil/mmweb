@@ -57,14 +57,15 @@
 .menu-open{
   width: 100%;
   height: auto;
-  position: absolute;
+  position: sticky;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: var(--primCol);
   font-family: var(--fontPrimary);
-  z-index: +100;
+  z-index: +500;
 }
 
 .full-scale{

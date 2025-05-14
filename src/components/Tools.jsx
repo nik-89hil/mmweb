@@ -59,8 +59,65 @@ export const Tools = () => {
             }
 
         </div>
-       
+        <br />
+    </div>
 
+    <div className="animate-box">
+        <motion.h1
+
+        initial={{
+            rotateY:"-10deg",
+            borderBottom:"6px solid purple",
+            rotateX:"80deg"
+
+        }}
+
+        whileInView={{
+            rotateX:"0deg"
+        }}
+
+        transition={{
+            duration:2,
+            delay:.4
+        }}
+
+        style={{
+            textAlign:"center"
+        }}
+        
+        
+        
+        
+        >Animation gives You Wings..</motion.h1>
+        <br />
+        <motion.h1
+
+        initial={{
+            rotateY:"-10deg",
+            borderBottom:"6px solid purple",
+            rotateX:"80deg"
+
+        }}
+
+        whileInView={{
+            rotateX:"0deg"
+        }}
+
+        transition={{
+            duration:3.5,
+            delay:.4,
+            ease:"easeInOut"
+        }}
+
+        style={{
+            textAlign:"center"
+        }}
+        
+        
+        
+        
+        >Fast & User Friendly Interface..</motion.h1>
+        
     </div>
 
     </>

@@ -79,7 +79,7 @@ button{
 }
 
 .explain{
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding: 2rem 1.5rem;
   font-family: var(--fontSecondary);
@@ -87,4 +87,11 @@ button{
   font-size: var(--medSize);
   backdrop-filter: blur(20);
   text-align: justify;
+}
+
+.animate-box{
+  margin-block: 6vh;
+  padding: 2rem 1rem;
+  font-family: var(--fontPrimary);
+  font-size: var(--largeSize);
 }
