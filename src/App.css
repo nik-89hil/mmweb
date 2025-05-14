@@ -112,3 +112,17 @@
   width: 100%;
   height: auto;
 }
+
+.img-holder{
+  width: auto;
+  height: 300px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.img-holder img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

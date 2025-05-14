@@ -1,5 +1,9 @@
 import React from 'react'
 import {motion, AnimatePresence} from 'framer-motion';
+import image1 from "../images/webimg.png";
+
+
+
 
 export const Navbar = () => {
 
@@ -23,10 +27,10 @@ export const Navbar = () => {
     </div>
 
     
-
+    <AnimatePresence>
     {
         (open)?(
-            <AnimatePresence>
+            
             <motion.div className="menu-open"
             initial={{
                 y:-200,
@@ -45,7 +49,8 @@ export const Navbar = () => {
             }}
 
             exit={{
-                y:-200,
+                y:-500,
+                opacity:.2
             }}
             
             
@@ -60,10 +65,10 @@ export const Navbar = () => {
                 } 
             </p>
             <br />
-            <p>MAKE</p>
-            <p>MY</p>
-            <p>WEBSITE</p>
-            <p> : YOUR ONLINE PARTNER </p>
+            <p className='img-holder'>
+                <img src={image1} alt="images" />
+
+            </p>
         </div>
         <div className="option-box">
             <p className="text-box">
@@ -86,10 +91,11 @@ export const Navbar = () => {
         </div>
 
             </motion.div>
-            </AnimatePresence>
+            
 
         ):(null)
     }
+    </AnimatePresence>
 
 
 

@@ -42,4 +42,11 @@ button{
     font-size: var(--largeSize);
     font-family: var(--fontPrimary);
     padding: .5rem 1rem;
+    color: var(--primCol);
+}
+
+.imager{
+  width: auto;
+  height: 60vh;
+  background-color: grey;
 }
