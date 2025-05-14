@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Tagesschrift&display=swap');
+
+
+:root{
+  --largeSize : 45px;
+  --medSize : 25px;
+  --primCol : purple;
+  --lightPrimCol : rgb(216, 134, 216);
+  --secCol: white;
+  --darkCol: black;
+  --fontPrimary : "Oswald", sans-serif;
+  --fontSecondary : "Nunito", sans-serif;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-box{
+  width: 100%;
+  background-color: var(--primCol);
+  position: fixed;
+  top: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--fontPrimary);
+}
+
+.nav div{
+  display: inline-block;
+  padding: 1.5rem;
+
+}
+
+.down-arrow,
+.whats-arrow,
+.email-arrow,
+.comp-name{
+  font-size: var(--medSize);
+  color: var(--secCol);
+  padding-inline: .4rem;
+}
+
+.down-arrow{
+  padding: 4px 8px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.menu-open{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primCol);
+  font-family: var(--fontPrimary);
+  z-index: +100;
+}
+
+.full-scale{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  font-size:22px;
+}
+
+
+
+
+.full-name{
+  font-size: var(--largeSize);
+  padding: 1rem;
+}
+
+.option-box{
+  height: auto;
+  float:right;
+  padding: 1rem;
+  float: right;
+  font-size: var(--largeSize);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-box{
+  margin-block: 2vh;
+}
+
+.text-box a{
+  color: var(--lightPrimCol);
+  
+}
+
+.text-box a:hover{
+  color: var(--secCol);
+  transition: color .2s linear;
+  text-decoration: double var(--secCol);
+}
+
+.intro-box{
+  margin-top: 3vh;
+  width: 100%;
+  height: auto;
+}

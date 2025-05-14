@@ -1,0 +1,45 @@
+button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background:var(--secCol);
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--lightPrimCol);
+  border-radius: 10px;
+}
+
+.box{
+    position: relative;
+    top:50px;
+    margin-top: 4vh;
+    padding:  2vh 10px;
+}
+
+.heading{
+    font-family: var(--fontPrimary);
+}
+
+.passage{
+    font-family: var(--fontSecondary);
+
+}
+
+.change{
+    color: var(--primCol);
+}
+
+.front{
+    font-size: var(--largeSize);
+    font-family: var(--fontPrimary);
+    padding: .5rem 1rem;
+}
