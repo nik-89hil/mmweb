@@ -24,6 +24,7 @@
   background-color: var(--primCol);
   position: fixed;
   top: 0;
+  z-index: +500;
 }
 
 .nav{
@@ -111,6 +112,7 @@
   margin-top: 3vh;
   width: 100%;
   height: auto;
+  padding: 2rem 1rem;
 }
 
 .img-holder{

@@ -22,6 +22,8 @@ export const Intro = () => {
         }}
         
         > Get Your Website Just In Simple Steps</motion.h1>
+        <br />
+        <br />
 
         <motion.div className="imager"
 
