@@ -27,7 +27,7 @@ export const Service = () => {
                         ease: 'easeInOut'
                     }}
 
-                >Services | mmweb.onrender.com</motion.h1>
+                >Services</motion.h1>
                 <br />
                 <p className='explain'>
                     Unlock the power of the web with our expert web development services!
