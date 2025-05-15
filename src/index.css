@@ -148,7 +148,7 @@ button{
 
 .price{
   color: var(--primCol);
-  font-size: 35px;
+  font-size: 19px;
   margin: 1rem;
   font-weight: 600;
 }
@@ -161,4 +161,43 @@ button{
   padding: 7px;
   border-radius: 7px;
   font-size: 24px;
+}
+
+b{
+  color: var(--primCol);
+}
+
+.faqheading{
+  font-family: var(--fontPrimary);
+}
+
+.about-box h1{
+  text-align: center;
+  font-family: var(--fontPrimary);
+}
+
+.btn-contact{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.btn-contact a{
+  font-family: var(--fontPrimary);
+  font-size: 22px;
+}
+
+.email{
+  border: 2px solid red;
+}
+.whats{
+  border: 2px solid green;
+}
+
+.email a{
+  color: red;
+}
+
+.whats a{
+  color: green;
 }
