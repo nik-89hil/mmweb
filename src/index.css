@@ -95,3 +95,53 @@ button{
   font-family: var(--fontPrimary);
   font-size: var(--largeSize);
 }
+
+.animate-box h1{
+  font-size: var(--largeSize);
+  color: black;
+}
+
+
+.service-box{
+  font-family: var(--fontPrimary);
+  color: var(--primCol);
+  font-size: var(--medSize);
+}
+
+.choose-box{
+  width: 100%;
+  height: auto;
+  background-color: var(--lightPrimCol);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-title{
+  font-family: var(--fontPrimary);
+  font-size: var(--medSize);
+}
+
+
+
+.btn-plan{
+  background-color: var(--primCol);
+  border: 3px solid var(--primCol);
+  padding: 10px;
+  font-weight: 600;
+  margin: 5px;
+  color: var(--secCol);
+  border-radius: 10px;
+  font-family: var(--fontSecondary);
+}
+
+.SUBS-TITLE{
+  text-align: center;
+  font-family: var(--fontPrimary);
+  font-size: var(--medSize);
+  color: var(--primCol);
+  font-weight: 600;
+  text-decoration: underline;
+  
+}

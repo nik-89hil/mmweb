@@ -2,6 +2,8 @@
 import './App.css'
 import { Intro } from './components/Intro'
 import { Navbar } from './components/Navbar'
+import { Service } from './components/Service'
+import { Subscription } from './components/Subscription'
 import { Tools } from './components/Tools'
 
 function App() {
@@ -14,6 +16,10 @@ function App() {
       <Intro/>
       <br />
       <Tools/>
+      <br />
+      <Service/>
+      <br />
+      <Subscription/>
     
     </>
   )

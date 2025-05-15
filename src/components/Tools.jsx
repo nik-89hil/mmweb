@@ -67,13 +67,14 @@ export const Tools = () => {
 
         initial={{
             rotateY:"-10deg",
-            borderBottom:"6px solid purple",
-            rotateX:"80deg"
+            rotateX:"80deg",
+            color:"black"
 
         }}
 
         whileInView={{
-            rotateX:"0deg"
+            rotateX:"0deg",
+            color:"purple"
         }}
 
         transition={{
@@ -88,13 +89,12 @@ export const Tools = () => {
         
         
         
-        >Animation gives You Wings..</motion.h1>
+        > Animation gives You Wings..</motion.h1>
         <br />
         <motion.h1
 
         initial={{
             rotateY:"-10deg",
-            borderBottom:"6px solid purple",
             rotateX:"80deg"
 
         }}
@@ -116,7 +116,7 @@ export const Tools = () => {
         
         
         
-        >Fast & User Friendly Interface..</motion.h1>
+        > Fast & User Friendly Interface..</motion.h1>
         
     </div>
 
