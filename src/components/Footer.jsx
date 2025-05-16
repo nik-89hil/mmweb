@@ -16,25 +16,25 @@ export const Footer = () => {
         <div className="foot-second">
             <h2>Usefull Links:</h2>
             <p className='foot-links'>
-                <a href="">Home</a>
+                <a href="#home">Home</a>
                 <br />
-                <a href="">Service</a>
+                <a href="#service">Service</a>
                 <br />
-                <a href="">About</a>
+                <a href="#about">About</a>
                 <br />
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
             </p>
         </div>
         <div className="foot-third">
             <h2>Contact us on:</h2>
             <p className='social'>
-                <a href="">
+                <a href="https://www.instagram.com/beeconnect_0/">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="">
+                <a href="mailto:nikhilkumar19072002@gmail.com">
                     <i class="fa-solid fa-envelope-open"></i>
                 </a>
-                <a href="">
+                <a href="tel:+918384072633">
                     <i class="fa-solid fa-phone"></i>
                 </a>
 

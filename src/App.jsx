@@ -16,18 +16,30 @@ function App() {
     <>
       <Navbar />
       <br />
+      <div id="home">
       <Intro />
+      </div>
       <br />
+      <div id="toolsAndtecnologies">
+        <br />
+        <br />
       <Tools />
-      <br />
-      <Service />
+      </div>
+        <br />
+        <Service />
       <br />
       <Subscription />
       <br />
       <Faqans/>
       <br />
+      
+      <div id="about">
+      </div>
       <About/>
       <br />
+
+      <br />
+      <div id="contact"></div>
       <Footer/>
       
     </>

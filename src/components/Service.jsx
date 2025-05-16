@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 export const Service = () => {
     return (
         <>
-            <div className="service-box">
+            <div className="service-box" id='service'>
                 <motion.h1
 
                     style={{

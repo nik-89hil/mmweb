@@ -1,7 +1,10 @@
 import { button } from 'framer-motion/client'
 import React from 'react'
 import {motion} from "framer-motion"
-
+import gal1 from "../images/res.png"
+import gal2 from "../images/color.png"
+import gal3 from "../images/text.png"
+import gal4 from "../images/aim.png"
 
 
 export const Tools = () => {
@@ -60,6 +63,21 @@ export const Tools = () => {
 
         </div>
         <br />
+    </div>
+
+    <div className="gallery">
+        <div className="gal">
+            <img src={gal1} alt="" />
+        </div>
+        <div className="gal">
+            <img src={gal2} alt="" />
+        </div>
+        <div className="gal">
+            <img src={gal3} alt="" />
+        </div>
+        <div className="gal">
+            <img src={gal4} alt="" />
+        </div>
     </div>
 
     <div className="animate-box">

@@ -2,7 +2,7 @@ import React from 'react'
 import {motion, AnimatePresence} from 'framer-motion';
 import image1 from "../images/webimg.png";
 
-
+import imageLogo from "../images/mmweb.png";
 
 
 export const Navbar = () => {
@@ -15,10 +15,12 @@ export const Navbar = () => {
     <>
     <div className="nav-box">
         <div className="nav">
-            <div className="comp"><span className='comp-name'>mmweb.com</span></div>
+            <div className="comp">
+                <span className='comp-name'>mmweb.com</span>
+            </div>
             <div className="open-box">
-                <a className="email-arrow"><i class="fa-regular fa-envelope"></i></a>
-                <a className="whats-arrow"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href='mailto:nikhilkumar19072002@gmail.com' className="email-arrow"><i class="fa-regular fa-envelope"></i></a>
+                <a href='https://wa.me/+918384072633' className="whats-arrow"><i class="fa-brands fa-whatsapp"></i></a>
                 <button className="down-arrow " onClick={()=>setOpen(!open)}>
                     <i class="fa-solid fa-bars"></i>
                 </button>
@@ -53,6 +55,28 @@ export const Navbar = () => {
                 opacity:.2
             }}
             >
+            <div className="image-cover">
+                <motion.img src={imageLogo} alt="logo"
+
+                initial={{
+                    scale:1
+                }}
+
+                whileInView={{
+                    scale:2
+                }}
+
+                transition={{
+                    duration:3,
+                    delay:.4,
+                    ease:"linear",
+                    repeat:Infinity
+                }}
+                
+                
+                
+                />
+            </div>
             
         <div className="option-box">
             <p>
@@ -60,20 +84,21 @@ export const Navbar = () => {
                 (open)?(<button className='full-scale' onClick={()=>setOpen(!open)}> <i className="fa-solid fa-xmark"></i> close</button>):(null)
                 } 
             </p>
+           
             <p className="text-box">
-                <a href="">#Home</a>
+                <a href="#home" onClick={()=>setOpen(!open)}>#Home</a>
             </p>
             <p className="text-box">
-                <a href="">#Tools & Technologies</a>
+                <a href="#toolsAndtecnologies" onClick={()=>setOpen(!open)}>#Tools & Technologies</a>
             </p>
             <p className="text-box">
-                <a href="">#Services</a>
+                <a href="#service" onClick={()=>setOpen(!open)}>#Services</a>
             </p>
             <p className="text-box">
-                <a href="">#About</a>
+                <a href="#about" onClick={()=>setOpen(!open)}>#About</a>
             </p>
             <p className="text-box">
-                <a href="">#Contact</a>
+                <a href="#contact" onClick={()=>setOpen(!open)}>#Contact</a>
             </p>
             
 
