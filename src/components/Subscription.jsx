@@ -30,7 +30,7 @@ export const Subscription = () => {
                     <p className='explain'>
                         <ul>
                              <button>
-                                <a href="" className='buy'><i class="fa-solid fa-indian-rupee-sign"></i> 3,999/- only</a>
+                                <a href="https://wa.me/+918384072633" className='buy'><i class="fa-solid fa-indian-rupee-sign"></i> 3,999/- only</a>
                             </button>
                             <br />
                             <br />
@@ -99,7 +99,7 @@ export const Subscription = () => {
                     <p className='explain'>
                         <ul>
                             <button>
-                                <a href="" className='buy'><i class="fa-solid fa-indian-rupee-sign"></i> 29,999/- only</a>
+                                <a href="https://wa.me/+918384072633" className='buy'><i class="fa-solid fa-indian-rupee-sign"></i> 29,999/- only</a>
                             </button>
                             <br />
                             <br />

@@ -212,8 +212,8 @@ b{
 
 .foot-box{
   width: auto;
-  height: 80vh;
-  padding-block: 4vh;
+  height: auto;
+  padding-block: 2vh;
   background-color: var(--primCol);
   margin-top: 4vh;
   position: relative;
@@ -228,6 +228,14 @@ b{
   color: var(--secCol);
   font-family: var(--fontPrimary);
 
+}
+
+.foot-First,
+.foot-second,
+.foot-third{
+  width: 300px;
+  height: auto;
+  margin-bottom: 2vh;
 }
 
 .foot-First{
@@ -270,3 +278,4 @@ b{
 .social a i{
   font-size: 25px;
 }
+

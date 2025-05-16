@@ -7,16 +7,17 @@ export const Faqans = () => {
         quest:"How long will it take to build my website?",
         ans:"With the Starter subscription, your website will be ready within 4 working days."
     },{
-    quest:"How long will it take to build my website?",
-        ans:"With the Starter subscription, your website will be ready within 4 working days."
+    quest:"Do you offer website maintenance and support?",
+        ans:"Yes! We offer ongoing website maintenance plans that include updates, backups, security checks, and content changes to keep your website running smoothly."
     },
     {
-    quest:"How long will it take to build my website?",
-        ans:"With the Starter subscription, your website will be ready within 4 working days."
+    quest:" Will my website be mobile-friendly and SEO optimized?",
+        ans:"Absolutely. All our websites are designed to be responsive, meaning they work perfectly on phones, tablets, and desktops. We also follow SEO best practices to help your website rank better in search engine results."
+    },{
+    quest:" How do I buy a website?",
+        ans:"Please send us an email or WhatsApp message so we can understand your requirements and offer you the best solution."
     },
-
-
-
+    
 ]
 
 

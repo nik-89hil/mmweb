@@ -35,9 +35,9 @@ function App() {
       
       <div id="about">
       </div>
+      <br />
       <About/>
       <br />
-
       <br />
       <div id="contact"></div>
       <Footer/>
