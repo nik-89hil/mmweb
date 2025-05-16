@@ -52,39 +52,28 @@ export const Navbar = () => {
                 y:-500,
                 opacity:.2
             }}
-            
-            
-            
-            
-            
             >
-            <div className="full-name">
+            
+        <div className="option-box">
             <p>
                 {
                 (open)?(<button className='full-scale' onClick={()=>setOpen(!open)}> <i className="fa-solid fa-xmark"></i> close</button>):(null)
                 } 
             </p>
-            <br />
-            <p className='img-holder'>
-                <img src={image1} alt="images" />
-
-            </p>
-        </div>
-        <div className="option-box">
             <p className="text-box">
-                <a href="">Home</a>
+                <a href="">#Home</a>
             </p>
             <p className="text-box">
-                <a href="">Tools & Technologies</a>
+                <a href="">#Tools & Technologies</a>
             </p>
             <p className="text-box">
-                <a href="">Services</a>
+                <a href="">#Services</a>
             </p>
             <p className="text-box">
-                <a href="">About</a>
+                <a href="">#About</a>
             </p>
             <p className="text-box">
-                <a href="">Contact</a>
+                <a href="">#Contact</a>
             </p>
             
 
