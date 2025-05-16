@@ -29,6 +29,11 @@ export const Subscription = () => {
                 (title == "STARTER PLAN") && (
                     <p className='explain'>
                         <ul>
+                             <button>
+                                <a href="" className='buy'><i class="fa-solid fa-indian-rupee-sign"></i> 3,999/- only</a>
+                            </button>
+                            <br />
+                            <br />
                             <li>
                                 <span>Your websites include powerful features like <b>Google Maps and Forms </b>  integration, click-to-mail, and WhatsApp chat—making it easy for your customers to reach you instantly. </span>
                             </li>
@@ -80,9 +85,7 @@ export const Subscription = () => {
                         <p className="price">
                             Note: you can send your web templates also.
                             Customise and Buy Now at : (Domain charge is not included). 
-                            <button>
-                                <a href="" className='buy'><i class="fa-solid fa-indian-rupee-sign"></i> 3,999/- only</a>
-                            </button>
+                           
                         </p>
                     </p>
 
@@ -95,6 +98,11 @@ export const Subscription = () => {
                 (title == "PRO PLAN") && (
                     <p className='explain'>
                         <ul>
+                            <button>
+                                <a href="" className='buy'><i class="fa-solid fa-indian-rupee-sign"></i> 29,999/- only</a>
+                            </button>
+                            <br />
+                            <br />
                             <li>
                                 We implement efficient routes and routing to ensure smooth navigation across your website or app.
                                 Routing controls how users move between pages or views without full reloads, improving speed and experience.
@@ -130,9 +138,7 @@ export const Subscription = () => {
 
                          <p className="price">
                             Note: (Domain & Hosting charges are not included).
-                            <button>
-                                <a href="" className='buy'><i class="fa-solid fa-indian-rupee-sign"></i> 29,999/- only</a>
-                            </button>
+                           
                             
                         </p>
                     </p>

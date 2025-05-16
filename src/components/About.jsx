@@ -19,6 +19,7 @@ export const About = () => {
                 </p>
                 <p className="explain">
                     contact : 
+                    <br />
                     <button className='btn-contact email'><a href=""><i class="fa-solid fa-envelope"></i> email</a></button>
                     <button className='btn-contact whats'><a href=""><i class="fa-brands fa-whatsapp"></i> whatsapp</a></button>
                 </p>
