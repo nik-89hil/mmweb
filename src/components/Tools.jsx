@@ -13,7 +13,9 @@ export const Tools = () => {
         "React","Bootstrap","Daisy UI","Tailwind CSS", "Vite", "Node",
         "Express", "Mongodb", "CSS3", "HTML5", "Javascript", "Framer-Motion",
 
-    ]
+    ];
+
+    const gal = [ gal1, gal2, gal3, gal4];
 
 
 
@@ -66,18 +68,35 @@ export const Tools = () => {
     </div>
 
     <div className="gallery">
-        <div className="gal">
-            <img src={gal1} alt="" />
-        </div>
-        <div className="gal">
-            <img src={gal2} alt="" />
-        </div>
-        <div className="gal">
-            <img src={gal3} alt="" />
-        </div>
-        <div className="gal">
-            <img src={gal4} alt="" />
-        </div>
+        {
+            gal.map((item,id)=>{
+                return(
+                    <div className="gal" key={id}>
+                    <motion.img src={item} alt="photos"
+
+                    initial={{
+                        scale:0,
+                        opacity:.2
+                    }}
+                    
+                    whileInView={{
+                        scale:1,
+                        opacity:1
+                    }}
+                    
+                    transition={{
+                        duration:1,
+                        delay:.3,
+                        ease:"linear"
+                    }}
+                    
+                    
+                    
+                    />
+                    </div>
+                )
+            })
+        }
     </div>
 
     <div className="animate-box">

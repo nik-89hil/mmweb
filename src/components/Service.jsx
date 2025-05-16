@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion } from "framer-motion"
 
+import start from "../images/starter.png"
+
 export const Service = () => {
     return (
         <>
@@ -37,6 +39,34 @@ export const Service = () => {
                     Choose from two value-packed subscription plans to suit your needs:
                 </p>
                 <br />
+                <div className="plan-gal">
+                    <motion.img src={start} alt="plan"
+
+                    initial={{
+                        scale:0,
+                        opacity:0
+                    }}
+
+                    whileInView={{
+                        scale:1,
+                        opacity:1,
+                    }}
+
+                   
+                    
+                    transition={{
+                        duration:2,
+                        delay:.4,
+                        ease:"backInOut",
+                        type:"spring",
+                        repeat:Infinity,
+                        repeatDelay:.4
+                    }}
+                    
+                    
+                    />
+
+                </div>
                 
             </div>
 

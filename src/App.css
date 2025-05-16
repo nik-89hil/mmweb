@@ -154,9 +154,9 @@
 .gal{
   width: 300px;
   height: 300px;
-  background-color: antiquewhite;
+  background-color: var(--secCol);
   margin: 5px;
-  border: 3px solid var(--primCol);
+  box-shadow: 2px 2px 70px purple;
   border-radius: 10px;
 }
 
@@ -164,11 +164,33 @@
   object-fit: cover;
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
+.gal img:hover,
+.plan-gal img:hover
+{
+  scale: 1.1;
+  transition: scale .4s linear;
+}
 
+.plan-gal{
+  width: 300px;
+  height: 300px;
+  background-color: antiquewhite;
+  margin: auto;
+  margin-bottom: 2vh;
+  box-shadow: 2px 2px 40px var(--primCol);
+  border-radius: 15px;
+  overflow:hidden;
+}
 
-
+.plan-gal img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
 
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import {AnimatePresence, motion} from 'framer-motion'
+import front from "../images/FRONT.jpg";
 
 export const Intro = () => {
   return (
@@ -25,33 +26,12 @@ export const Intro = () => {
         <br />
         <br />
 
-        <motion.div className="imager"
-
-        initial={{
-            backgroundColor:"white",
-            opacity:1,
-            borderRadius:"60px"
-        }}
-        
-        animate={{
-            backgroundColor:"grey",
-            opacity:.2,
-        }}
-
-        transition={{
-            delay:.7,
-            duration:3,
-            ease:"linear",
-            repeat:Infinity
-        }}
-        
-        
-        
-        
-        
+        <div className="imager"
         >
+            <img src={front}  alt='front_image'/>
 
-        </motion.div>
+        </div>
+        <br /><br />
         
         
         

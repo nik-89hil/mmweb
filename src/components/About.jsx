@@ -20,8 +20,8 @@ export const About = () => {
                 <p className="explain">
                     contact : 
                     <br />
-                    <button className='btn-contact email'><a href=""><i class="fa-solid fa-envelope"></i> email</a></button>
-                    <button className='btn-contact whats'><a href=""><i class="fa-brands fa-whatsapp"></i> whatsapp</a></button>
+                    <button className='btn-contact email'><a href="mailto:nikhilkumar19072002@gmail.com"><i class="fa-solid fa-envelope"></i> email</a></button>
+                    <button className='btn-contact whats'><a href="https://wa.me/+918384072633"><i class="fa-brands fa-whatsapp"></i> whatsapp</a></button>
                 </p>
             </div>
 

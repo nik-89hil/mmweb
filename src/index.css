@@ -47,8 +47,14 @@ button{
 }
 
 .imager{
-  width: auto;
-  height: 60vh;
+  width: 100%;
+  height: auto;
+}
+
+.imager img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 .tooler{
