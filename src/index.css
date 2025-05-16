@@ -196,8 +196,71 @@ b{
 
 .email a{
   color: red;
+  text-decoration: none ;
 }
 
 .whats a{
   color: green;
+  text-decoration: none;
+}
+
+.foot-box{
+  width: auto;
+  height: 80vh;
+  padding-block: 4vh;
+  background-color: var(--primCol);
+  margin-top: 4vh;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.foot-First h2{
+  color: var(--secCol);
+  font-family: var(--fontPrimary);
+
+}
+
+.foot-First{
+  font-family: var(--fontSecondary);
+  color: white;
+}
+
+.foot-second h2{
+  color: var(--secCol);
+  font-family: var(--fontPrimary);
+}
+
+.foot-second p a{
+  font-family: var(--fontPrimary);
+  color: var(--secCol);
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.foot-third h2{
+  font-family: var(--fontPrimary);
+  color: var(--secCol);
+  margin-block: 4vh;
+}
+
+.social a{
+  color: var(--secCol);
+  font-size: 22px;
+  margin: 9px;
+  padding: 9px;
+  border: 3px solid var(--primCol);
+  border-radius: 8px;
+}
+
+.social a:hover{
+  border: 3px solid var(--secCol);
+  transition: border .4s linear;
+}
+
+.social a i{
+  font-size: 25px;
 }

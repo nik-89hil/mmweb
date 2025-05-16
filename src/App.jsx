@@ -7,6 +7,7 @@ import { Subscription } from './components/Subscription'
 import { Tools } from './components/Tools'
 import { Faqans } from './components/Faqans'
 import { About } from './components/About'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
       <Faqans/>
       <br />
       <About/>
+      <br />
+      <Footer/>
       
     </>
   )
